@@ -4,16 +4,18 @@ public class Task {
 	public static void main(String[] args) {
 		System.out.println("WELCOME");
 
-		try{int a = 10;
-		int b = 0;
-		int c = a / b;
+		try {
+			int a = 10;
+			int b = 0;
+			int c = a / b;
 
-		System.out.println(c);
+			System.out.println(c);
 		}
-		
-		catch(ArithmeticException ae) {
+
+		catch (ArithmeticException ae) {
 			ae.printStackTrace();
 		}
 		System.out.println("PROGRAM END");
+		System.out.println("PROGRAM NOT END");
 	}
 }
